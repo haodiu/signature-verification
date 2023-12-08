@@ -15,11 +15,13 @@ image_path_2 = ""
 background_color = "#bab9b8"
 button_verify_color = "#4979eb"
 
+# SigComp 2011 + Chu ky thu thap
 # threshold = 4.507454887376408
-# model_path = "model/model_epoch_19.pt"
+# model_path = "model/model_epoch_17.pt"
 
+# SigComp 2011
+model_path = "model/model_epoch_19.pt"
 threshold = 5.507642486269665
-model_path = "model/model_epoch_17.pt"
 
 image_transforms = transforms.Compose([
     transforms.Resize((155, 220)),
